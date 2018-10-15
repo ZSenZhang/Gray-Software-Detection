@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/btn_orange_selector"
+            android:scaleType="fitXY"
+            android:hint="@string/upload"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img_account"
+            android:background="@drawable/text_border"
+            android:maxLines="1"
+            android:text="your filepath here"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/gridcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+.pull-right {
+      float: right;
+}
+.home {
+  margin-top: 8rem;
+  .container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    button {
+      opacity: 0;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
+    }
+    &:hover {
+      button {
+        opacity: 1;
+      }
+    }
+  }
+  .card-img {
+    width: 20rem;
+  }
+}

@@ -1,0 +1,51 @@
+.developer {
+  .mainflip {
+    margin: auto;
+    margin-top: 8rem;
+    max-width: 20rem;
+    img {
+      width: 10rem;
+      border-radius: 50%;
+    }
+  }
+}
+
+.record-container {
+  display: block;
+  margin-top: 3rem;
+  .submission-title {
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  hr {
+    color: rgba(0, 0, 0, 0.5);
+    border-top: 2px solid rgba(0,0,0,0.1);
+  }
+  .record-panel {
+    display: flex;
+    margin-top: 2rem;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    .apk-icon {
+      display: flex;
+      background-color: rgba($color: #f9f9f9, $alpha: 0.8);
+      img {
+        height: 8rem;
+        margin: auto;
+      }
+    }
+    .apk-detail {
+      margin-left: 1rem;
+      p {
+        margin-bottom: 0.5rem;
+      }
+    }
+    .real {
+      color: green;
+    }
+    .fake {
+      color: red;
+    }
+  }
+}

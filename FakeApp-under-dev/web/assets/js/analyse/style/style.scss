@@ -1,0 +1,38 @@
+.analyse {
+  .title {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 5rem;
+    font-weight: 100;
+  }
+  .container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .submit {
+      margin-top: 1rem;
+    }
+    .dropzone {
+      div {
+        height: 8rem !important;
+        width: 36rem !important;
+        background-color: #f9f9f9;
+        border: 1px solid #e3e3e3 !important;
+        border-radius: 2px !important;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        p {
+          margin: auto;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.D {
+  color: darkseagreen;
+}
