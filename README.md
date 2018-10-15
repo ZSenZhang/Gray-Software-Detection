@@ -15,7 +15,7 @@ Memcached
 amqp==2.2.2
 billiard==3.5.0.3
 celery==4.1.0
-Django==2.0.4
+Django==2.0.8
 django-filter==1.1.0
 django-webpack-loader==0.6.0
 djangorestframework==3.8.2
